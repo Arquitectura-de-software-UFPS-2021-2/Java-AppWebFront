@@ -14,7 +14,7 @@ function App() {
     extDestino: 'ODT',
   }
 
-
+  localStorage.setItem('conversion', JSON.stringify(conversion));
 
   const cambioDeSelect = () => {
     console.log('desde app');
@@ -22,13 +22,8 @@ function App() {
   }
 
   useEffect(() => {
-    localStorage.setItem('conversion', JSON.stringify(conversion));
-
-  }, []);
-
-  useEffect(() => {
     setExtArchivo(obtenerExtensionDeOrigen());
-  }, [InputFile])
+  }, [InputFile]);
 
   return (
     <div className="App-container">
