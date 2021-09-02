@@ -7,31 +7,42 @@ La siguiente es una aplicación de escritorio desarrollada en el lenguaje de pro
 ![Logo](https://i.ibb.co/9pFNcg6/LOGO-DOCONVER.png)
 
     
-## Documentation
+## Instalación
 
-[Documentation](https://drive.google.com/drive/folders/1Mv2nTsDL2ATsxjFaTDsrfqQBHzdRjEIK?usp=sharing)
+1) Tener Node.js descargado en su máquina, con algun editor de texto cómo VsCode.
+2) Clonar el repositorio en su equipo: git clone https://github.com/Arquitectura-de-software-UFPS-2021-2/Java-AppWebFront.git
 
-  
+3) Inicializar el proyecto mediante el script "npm start" en su consola. 
+
 ## Screenshots
 
 ### Inicio
 #### Vista principal del software.
-![App Screenshot](https://i.ibb.co/17Y3VTp/Inicio.png)
+![App Screenshot](https://i.imgur.com/HWLu9Qr.png)
 
 ### Carga de documento
 #### Sube el documento que deseas convertir.
-![App Screenshot](https://i.ibb.co/ChsP24z/Seleccion-de-documento.png)
+![App Screenshot](https://i.imgur.com/DfqcA39.png)
 
 ### Configuracion
 #### Elige el formato al que deseas convertir.
-![App Screenshot](https://i.ibb.co/JRFtmQ0/Configuracion.png)
+![App Screenshot](https://i.imgur.com/eeoxfQH.png)
+
+### Final
+#### El software renderizará un botón con el cual se podrá descargar el documento.
+![App Screenshot](https://i.imgur.com/xRDSaBU.png)
 
 ### Final
 #### El formato deseado se descargara en tu escritorio
-![App Screenshot](https://i.ibb.co/yYVLfS9/Resultado.png)
+![App Screenshot](https://i.imgur.com/LAlACUJ.png)
 
   
 # Detalles de desarrollo
+
+## Front-End:
+
+El desarrollo del frontend del aplicativo se implementó con la librería React.js, con la cual se estructuró las vistas y la lógica mediante componentes reactivos, lo cual caracteriza a esta librería frente a otros frameworks y tecnologías frontend basadas en Javascript.
+
 
 ## Paquete APP:
 
