@@ -48,7 +48,7 @@ Para desplegar el aplicativo debe ingresar a la carpeta build, copiar todos los 
 El desarrollo del frontend del aplicativo se implementó con la librería React.js, con la cual se estructuró las vistas y la lógica mediante componentes reactivos, lo cual caracteriza a esta librería frente a otros frameworks y tecnologías frontend basadas en Javascript.
 
 ## Autores
-#### Sergio Stives Barrios Buitrago - [@SerBuitrago](https://github.com/SerBuitrago)
+#### Jorge Omar Perez Peñaranda - [@JorgePerez](https://github.com/SHUNNIORR)
 
 ### Logotipo
 #### Brayan Steven Caicedo Florez- [@BrayamFlorez](https://github.com/BrayamFlorez)
