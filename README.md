@@ -14,6 +14,10 @@ La siguiente es una aplicación de escritorio desarrollada en el lenguaje de pro
 
 3) Inicializar el proyecto mediante el script "npm start" en su consola. 
 
+## Cómo desplegar?
+
+Para desplegar el aplicativo debe ingresar a la carpeta build, copiar todos los archivos que están dentro y subirlos a S3 o a la instancia donde quiera desplegarlos
+
 ## Screenshots
 
 ### Inicio
