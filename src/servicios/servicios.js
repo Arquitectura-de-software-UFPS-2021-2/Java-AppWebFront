@@ -13,10 +13,16 @@ export const convertirArchivo = async (obj) => {
   axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
   axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
   console.log(obj);
+  try {
+    const response = await axios.post(url, obj)
+    console.log(response?.data?.base64);
+    return response?.data;
+  } catch (error) {
 
-  const response = await axios.post(url, obj)
-  console.log(response?.data?.base64);
-  return response?.data;
+    console.log(error);
+    return error;
+  }
+
 }
 
 //
@@ -34,30 +40,3 @@ export const dataURLtoFile = (dataurl, filename) => {
 
   return new File([u8arr], filename, { type: mime });
 }
-
- //Usage example:
- //var file = dataURLtoFile('data:text/plain;base64,aGVsbG8gd29ybGQ=','hello.txt');
- //console.log(file);
-
-//------------------------------------------------------------------------------
-// export const convertirArchivo = async (obj) => {
-//   const bodyEncoded = Object.keys(obj)
-//     .map(
-//       (key) =>
-//         encodeURIComponent(key) + '=' + encodeURIComponent(obj[key])
-//     )
-//     .join('&');
-
-//   const response = await fetch(url, {
-//     method: 'post',
-//     mode: 'no-cors',
-//     headers: {
-//       'Access-Control-Allow-Origin': '*',
-
-//     },
-//     body: bodyEncoded
-//   });
-//   console.log(response);
-//   const data = response.json();
-//   console.log(data);
-// }
